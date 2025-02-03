@@ -48,7 +48,7 @@ legend("I = 9", "I = 11", "I = 15")
 title("Voltage across a membrane depending on the constant current")
 xlabel("Time / s")
 ylabel("Voltage / V")
-
+saveas(gcf,"Integrate and Fire Model - Eueler.png")
 
 %%Comments
 % The higher the current, the faster the neuron reaches the threshold
